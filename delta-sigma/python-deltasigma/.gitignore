@@ -1,0 +1,56 @@
+# Editor temporary/working/backup files #
+#########################################
+.#*
+[#]*#
+*~
+*$
+*.bak
+*.kdev4
+.project
+.pydevproject
+#backups
+
+#    Python    #
+################
+*.py[cod]
+# setup.py working directory
+build
+# sphinx build directory
+doc/_build
+doc/*.html
+doc/_static
+# setup.py dist directory
+dist
+# Egg metadata
+*.egg-info
+# Egg
+*.egg
+# Installer logs
+pip-log.txt
+
+.ipynb_checkpoints
+
+# Compiled source #
+###################
+*.a
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Unit test / coverage reports #
+################################
+.coverage
+.tox
+nosetests.xml
+
+# OS generated cruft #
+######################
+.directory
+.gdb_history
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db

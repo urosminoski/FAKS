@@ -1,0 +1,27 @@
+Anaconda environment to run python-deltasigma can be created with.
+This step needs to be performed only once.
+
+source <anaconda path>/bin/activate
+sudo apt install libatlas-base-dev
+conda create -n deltasigma python=3.7 matplotlib=2.2.3 numpy scipy 
+conda activate deltasigma
+conda install -c conda-forge cython
+conda install -c conda-forge jupyterlab
+conda activate deltasigma
+cd python-deltasigma
+python setup.py install
+
+--------------------------------------------------------------------------------
+Created environment is activated with
+
+source <anaconda path>/bin/activate
+conda activate deltasigma
+
+Examples can be run with
+
+cd python-deltasigma
+cd examples
+jupyter-lab
+
+--------------------------------------------------------------------------------
+
